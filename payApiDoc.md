@@ -67,7 +67,7 @@ URL地址：{payUrl}/api/create_order
 同步请求地址 | returnUrl | 否 | String(128) | http://shop.xx.com/return.htm | 支付结果同步请求URL
 商品主题 | subject | 是 | String(64) | 测试商品1 | 商品主题
 请求时间 | timestamp | 是 | String(30) | 20190723141000 | 请求接口时间， yyyyMMddHHmmss格式
-签名 | sign | 是 | String(32) | C380BEC2BFD727A4B6845133519F3AD6 | 签名值，详见签名算法
+签名 | sign | 是 | String(32) | C380BEC2BFD727A4B6845133519F3AD6 | 大写签名值，详见签名算法
 
 &gt; 响应结果
 
