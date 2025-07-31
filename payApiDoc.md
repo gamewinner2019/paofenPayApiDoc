@@ -44,7 +44,7 @@ signMap.put("outTradeNo", "P12312321123");
 `签名结果`：5E0AA05DD4BB4FE5AB65608123EBA591
 `最终请求支付系统参数`：money=2.0&amp;outTradeNo=P12312321123&amp;type=wechat&amp;userId=test01&amp;sign=5E0AA05DD4BB4FE5AB65608123EBA591
 
-&gt; 商户登录商户系统后，通过安全中心查看或修改私钥key。
+&gt; 请叫上游开户的人给你查看私钥key。
 
 ## 2. 统一下单
 &gt; 接口描述
