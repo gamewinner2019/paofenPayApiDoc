@@ -61,7 +61,7 @@ URL地址：{payUrl}/api/create_order
 ------- | -------| -------| -------| ------| -------
 商户ID | merchantId | 是 | String(30) | 20001222 | 支付中心分配的商户号
 支付产品ID | channelId | 是 | String(24) | 8001 |
-商户订单号 | mchOrderNo | 是 | String(30) | 20160427210604000490 | 商户生成的订单号
+商户订单号 | mchOrderNo | 是 | String(30) | 20160427210604000490 | 商户订单号,不能超过24位
 支付金额 | amount | 是 | int | 100 | 支付金额,单位分
 异步回调地址 | notifyUrl | 是 | String(128) | http://shop.xx.com/notify.htm | 支付结果异步回调URL
 同步请求地址 | returnUrl | 否 | String(128) | http://shop.xx.com/return.htm | 支付结果同步请求URL
