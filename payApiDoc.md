@@ -1,7 +1,7 @@
 ## 1. 协议规则
 传输方式：采用HTTP传输(生产环境建议HTTPS)
 
-提交方式：采用POST/GET方式提交
+提交方式：采用POST方式提交
 
 内容类型：application/x-www-form-urlencoded
 
