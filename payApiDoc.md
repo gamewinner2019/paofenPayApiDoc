@@ -170,6 +170,7 @@ URL地址：{payUrl}/api/query_order
 支付金额 | amount | 是 | int | 100 | 下单时传的支付金额,单位分
 订单状态 | status | 是 | String(3) | 2 | 订单状态: -2:订单已关闭,0-订单生成,1-支付中,2-支付成功,3-业务处理完成,4-已退款 5 通知中 6通知失败（2，3，5，6都表示支付成功,3表示支付平台回调商户且返回成功后的状态）
 渠道订单号 | channelOrderNo | 否 | String wx20170910211043fb206e92260071822007 | 对应的第三方支付订单号 |
+用户UID | UID | 否 | String | 2088******* | 付款人UID
 支付成功时间 | paySuccTime | 否 | String | 2026-09-09 18:43:36 | 支付成功时间
 签名 | sign | 是 | String(32) | C380BEC2BFD727A4B6845133519F3AD6 | 签名值，详见签名算法
 
@@ -189,6 +190,7 @@ URL地址：{payUrl}/api/query_order
       "paySuccTime": "2026-09-09 18:43:36",
       "channelOrderNo": "2026090923001498031403587527",
       "timestamp": "20260909184341",
+      "UID": "2088*******",
       "sign": "3740F8F0EA98B02ABEEED0FBC567BF38"
     }
 }
@@ -216,6 +218,7 @@ URL地址：{payUrl}/api/query_order
 状态 | status | 是 | int | 1 | 订单状态: -2:订单已关闭,0-订单生成,1-支付中,2-支付成功,3-业务处理完成,4-已退款 5 通知中 6通知失败（2，3，5，6都表示支付成功,3表示支付平台回调商户且返回成功后的状态）
 渠道订单号 | channelOrderNo | 否 | String(64) | wx2016081611532915ae15beab0167893571 | 三方支付渠道订单号
 支付成功时间 | paySuccTime | 是 | long | | 精确到毫秒
+用户UID | UID | 否 | String | 2088******* | 付款人UID
 通知请求时间 | timestamp | 是 | String(30) | 20190723141000 | 通知请求时间，yyyyMMddHHmmss格式
 签名 | sign | 是 | String(32) | C380BEC2BFD727A4B6845133519F3AD6 | 签名值，详见签名算法
 
